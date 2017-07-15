@@ -1,0 +1,16 @@
+{
+  "name": "CampusBot",
+  "version": "0.0.1",
+  "description": "Telegram bot for CV-UAB",
+  "main": "index.js",
+  "scripts": {
+    "start":"BOT_TOKEN='<insert token>' node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "authors": "@khartuin, @Starbuck65, @Daedalus42, @Miriam666 ",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0",
+    "telegraf": "^3.8.0"
+  }
+}
